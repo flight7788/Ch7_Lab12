@@ -1,0 +1,21 @@
+﻿已經開始建置於 2017/12/19/週二 下午 04:03:45。
+     1>節點 2 (Build 目標) 上的專案 "C:\c_code\Ch7_Lab2\Ch7_Lab2\Ch7_Lab2\Ch7_Lab2.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\source\main.c
+         main.c
+     1>c:\c_code\ch7_lab2\source\main.c(19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 請參閱 'fopen' 的宣告
+     1>c:\c_code\ch7_lab2\source\main.c(24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 請參閱 'fopen' 的宣告
+     1>c:\c_code\ch7_lab2\source\main.c(34): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: 請參閱 'fscanf' 的宣告
+     1>c:\c_code\ch7_lab2\source\main.c(46): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 請參閱 'fopen' 的宣告
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\c_code\Ch7_Lab2\Ch7_Lab2\Debug\Ch7_Lab2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\c_code\Ch7_Lab2\Ch7_Lab2\Debug\Ch7_Lab2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\c_code\Ch7_Lab2\Ch7_Lab2\Debug\Ch7_Lab2.lib" /MACHINE:X86 Debug\main.obj
+         Ch7_Lab2.vcxproj -> C:\c_code\Ch7_Lab2\Ch7_Lab2\Debug\Ch7_Lab2.exe
+     1>專案 "C:\c_code\Ch7_Lab2\Ch7_Lab2\Ch7_Lab2\Ch7_Lab2.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.42
